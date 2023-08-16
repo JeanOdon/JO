@@ -4,56 +4,12 @@
 
 header {
     height: 70vh;
-    width: 100vw;
+    width: 98.5vw;
     background: url(/images/background\ header.jpg) fixed;
     background-size: cover;
 }
 
-.navbar {
-    position: absolute;
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-}
 
-.navbar a {
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-    font-weight: 500;
-    font-size: 13px;
-}
-
-
-.navbar li {
-    list-style: none;
-}
-
-.navbar .nav-list ul {
-    display: flex;
-    margin: 40px;
-}
-
-.navbar .nav-list ul li {
-    margin: 0 18px;
-}
-
-.navbar .nav-list ul li a{
-        font-weight: 900;
-
-}
-
-.nav-list li a:hover {
-    cursor: pointer;
-    color: rgb(255, 0, 0);
-}
-
-
-.nav-list span {
-    color: rgb(255, 255, 255);
-    background-color: rgb(252, 5, 5);
-    padding: 6px;
-    border-radius: 38px;
-}
 
 /*------header------*/
 
@@ -63,7 +19,7 @@ header {
     align-items: center;
 }
 .home-text{
-    margin-left: 320px;
+    margin-left: 20px;
     line-height: 2px;
 }
 
@@ -71,13 +27,14 @@ header {
     color: rgb(4, 247, 255);
     font-size: 16px;
     font-weight: 100;
-    letter-spacing: 10px;
-    font-family: 'Poppins', sans-serif; 
+    font-family: 'Poppins', sans-serif;
+    margin-right: 20px;
+    letter-spacing: 5px;
 }
 
 .home-text h1 {
     font-size: 2em;
-    letter-spacing: 35px;
+    letter-spacing: 5px;
     text-transform: uppercase;
     -webkit-box-reflect: below -8px linear-gradient(transparent, #0004);
     color: rgb(255, 145, 0);
@@ -87,6 +44,7 @@ header {
     color: rgb(255, 255, 255);
     font-weight: 100;
     font-size: 13px;
+    letter-spacing: 5px;
 }
 
 .home-text h5 span {
@@ -95,20 +53,21 @@ header {
     padding-left: 5px;
     font-size: 25px;
     text-shadow: 0 0 10px rgb(255, 0, 191);
+    display: none;
 }
 
 .home-img img {
     padding-left: 110px;
-    padding-top: 76px;
+    padding-top: 64px;
     width: 40%;
 }
 
 /*------About--------*/
 .about{
-    width: 93%;
+    width: 92%;
     height: 490px;
     margin: 150px;
-    background: url(/images/bg.jpg);
+    background: url(/images/bg.jpg) fixed;
 }
 
 .glass{
@@ -233,7 +192,6 @@ header {
 
 section .services {
     display: flex;
-    margin-top: 120px;
     background: url(/images/v1016-a-08.jpg) fixed;
 }
 
@@ -273,6 +231,7 @@ section .services {
 .card i {
     font-size: 20px;
     color: orange;
+    display: none;
 }
 
 .card h2 {
@@ -344,7 +303,7 @@ section .services {
 
 .contact {
     display: flex;
-    margin-top: 102px;
+    margin-top: 152px;
 }
 
 .contact-text {
@@ -403,266 +362,8 @@ button{
 .footer .text {
     color: #ffffff;
     text-align: center;
-    margin-top: 100px;
     padding: 20px;
     background-color: #8e8f8f;
     letter-spacing: 3px;
 }
 
-/*---------------------Responsive----------------*/
-
-@media screen and (max-width: 1366px) {
-    .home-img img {
-        padding-left: 95px;
-        padding-top: 84px;
-        width: 35.5%;
-    }
-
-    .home-text{
-        margin-left: 120px;
-        line-height: 2px;
-    }
-
-    .about{
-        background: url(/images/bg.jpg);
-        background-size: cover;
-        height: 530px;
-    }
-    
-    .about .about-text{
-        width: 600px;
-        margin-left: -400px;
-    }
-
-    .container .skill-title{
-        margin-top: 60px;
-        margin-left: -170px;
-        letter-spacing: 17px;
-    }
-
-    .row{
-        margin-left: -190px;
-    }
-
-    .col-md-12{
-        width: 350px;
-    }
-
-    .card-box{
-        margin-left: -110px;
-    }
-
-    .servicetitle p{
-        margin-left: -98px;
-    }
-
-    .contact-text{
-        width: 500px;
-    }
-
-    .content-2 iframe{
-        width: 840px;
-    }
-    
-    .cv a{
-        padding: 13px;
-        font-size: 10px;
-    }
-    
-
-    .form input,textarea,button{
-        width: 300px;
-        margin-left: 40px;
-    }
-
-    .form input{
-        padding-left: 118px ;
-    }
-
-    
-}
-
-/*------------------ Mobile-------------*/
-
-@media only screen and (max-width: 600px) {
-
-   header {
-    height: 400px;
-    width: 600px;
-    background: url(/images/empty-floor-front-of-modern-buil.jpg) fixed;
-}
-
-.navbar .nav-list{
-    display: none;
-    width: -900px;
-    font-size: 10px;
-    margin-left: -100px;
-}
-
-.home-text{
-    margin-bottom: -300px;
-}
-
-.home-text h1 {
-    font-size: 15px;
-    margin-left: -100px;
-    letter-spacing: normal;
-}
-
-.home-text h5 span{
-    font-size: 10px;
-}
-.home-text h3{
-    font-size: 10px;
-    margin-left: -100px;
-    letter-spacing: normal;
-}
-.home-text h5{
-    font-size: 11px;
-    margin-left: -100px;
-    margin-top: 10px;
-    letter-spacing: normal;
-}
-
-.home-img img{
-    margin-left: -200px;
-    width: 170px;
-    margin-top: 45px;
-}
-
-/*-------ABOUT-----------*/
-
-.about{
-    margin-left: -610px;
-    background: none;
-}
-
-.about .about-text p{
-    width: 200px;
-    margin-top: -60px;
-    font-size: 10px;
-    margin-left: -575px;
-}
-
-.about-head h2{
-    margin-left: 720px;
-    margin-top: -130px;
-    font-size: 16px;
-}
-
-/*------------SKILLS----------------*/
-
-.container{
-    height: 830px;
-    margin-top: 290px;
-}
-
-.progress-title{
-    width: 190px;
-    line-height: 20px;
-}
-
-.container .skill-title{
-    letter-spacing: 8px;
-    margin-bottom: -300px;
-}
-
-.progress-title h3{
-    font-size: 10px;
-}
-
-.skillTitle p{
-    font-size: 14px;
-}
-
-.container .col-md-12{
-    width: 250px;
-}
-
-.progress{
-    padding: -5px;
-}
-
-.cv{
-    font-size: 10px;
-    height: 10px;
-}
-
-.services .servicetitle{
-    margin-left: -30px;
-    margin-top: -30px;
-    font-size: 18px;
-}
-
-.card-box .card p{
-    font-size: 10px;
-}
-
-.card-box .card{
-    width: 250px;
-    margin-left: -30px;
-    box-shadow: 1px 1px 11px 1px rgba(0, 0, 0, 0.2);
-}
-
-/*-------------CONTACT RESPONSIVE---------*/
-
-.contact .contact-text{
-    width: 350px;
-    height: 380px;
-}
-
-.content-1 form input{
-    width: 185px;
-    margin-left: 20px;
-}
-
-.content-1 form textarea{
-    width: 185px;    
-    margin-left: 20px;
-}
-
-.content-1 form button {
-    width: 110px;    
-
-}
-
-.footer{
-    width: 355px;
-    font-size: 10px;
-}
-
-.content-2{
-    display: none;
-}
-
-/*----------Contact---------*/
-
-.content-1{
-    background: #0e3742;
-}
-
-.contact .content-2{
-    display: none;
-}
-
-.content-1 .titre h4{
-    font-size: 16px;
-}
-
-.form input,textarea{
-    width: 250px;
-    margin-left: 40px;
-}
-
-.form button{
-    margin-left: 30px;
-}
-
-.contact-text{
-    margin-left: 3px;
-    width: 350px;
-    height: 300px;
-    border-radius: 20px;
-}
-
-}
