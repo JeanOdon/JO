@@ -10,15 +10,23 @@
     list-style: none;
     display: flex;
     flex-wrap: wrap;
-    margin-left: 800px;
+    margin-left: 1000px;
 
 }
 
 .nav-bar .nav-content ul li a{
     text-decoration: none;
     list-style: none;
-    color: #fff;
-    margin: 0 8px;
+    margin: 0 10px;
+    border-radius: 4px;
+    padding: 5px;
+    font-weight: bolder;
+    color: #404040;
+    font-size: 13px;
+}
+
+.nav-bar .nav-content ul li a:hover{
+    color: orangered;
 }
 
 
@@ -85,9 +93,9 @@ header {
 
 .about-text {
     font-family: 'Great Vibes', cursive;
-    padding-left: 800px;
     font-size: 20px;
-    width: 40%;
+    width: 50%;
+    margin-left: 500px;
 }
 
 .about-head h2 {
