@@ -137,9 +137,24 @@ header {
     font-size: 24px;
     background: linear-gradient(90deg, orangered, rgb(255, 0, 230));
     padding: 5px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    margin-left: 600px;
 }
+
 .projet .description .contenue{
-    font-size: 12px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.projet .description .headTitle{
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+.projet .description .contentproject{
+    font-size: 11px;
+    font-weight: 500;
 }
 
 /*------Competances--------*/
