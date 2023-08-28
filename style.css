@@ -2,6 +2,7 @@
 font-family: 'Poppins', sans-serif;
 }
 
+
 .nav-bar{
     position: absolute;
 }
@@ -36,8 +37,6 @@ header {
     background: url(/images/background\ header.jpg) fixed;
     background-size: cover;
 }
-
-
 
 /*------header------*/
 
@@ -130,44 +129,22 @@ header {
 }
 
 /*------Projet personnel---------*/
-.projet .description .title{
-    text-transform: uppercase;
-    font-weight: bold;
-    color: #ffffff;
-    font-size: 24px;
-    background: linear-gradient(90deg, orangered, rgb(255, 0, 230));
-    padding: 5px;
-    border-top-right-radius: 40px;
-    border-bottom-left-radius: 40px;
-    margin-left: 600px;
-}
-
-.projet .description .contenue .part1{
-    margin-top: -650px;
-    margin-left: 100px;
-}
-.projet .description .contenue .part2{
-    margin-top: -250px;
-    margin-left: 600px;
+.projet{
+    margin-bottom: 90px;
 }
 
 .projet .description .contenue img{
+    height: 80vh;
+    width: 100%;
+}
+
+.projet .description .contenue .part1{
+    margin-top: -580px;
+    font-size: 12px;
     width: 700px;
-    height: 550px;
-    margin: 80px;
-}
-
-.projet .description .headTitle{
-    font-size: 14px;
-    font-weight: bolder;
-}
-
-.projet .description .contentproject{
-    font-size: 11px;
+    margin-left: 820px;
     font-weight: 500;
-    width: 700px;
 }
-
 
 /*------Competances--------*/
 
