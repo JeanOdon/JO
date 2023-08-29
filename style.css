@@ -83,7 +83,7 @@ header {
 .about{
     width: 89%;
     height: 490px;
-    margin: 150px;
+    margin: 100px;
     background: url(/images/bg.jpg) fixed;
 }
 
@@ -95,7 +95,7 @@ header {
     font-family: 'Great Vibes', cursive;
     font-size: 20px;
     width: 50%;
-    margin-left: 400px;
+    margin-left: 530px;
 }
 
 .about-head h2 {
@@ -130,7 +130,18 @@ header {
 
 /*------Projet personnel---------*/
 .projet{
-    margin-bottom: 90px;
+    margin-bottom: 80px;
+}
+
+.projet .description .title{
+    font-size: 20px;
+    position: absolute;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left: -220px;
+    rotate: 90deg;
+    letter-spacing: 22px;
+    margin-top: 300px;
 }
 
 .projet .description .contenue img{
@@ -138,15 +149,20 @@ header {
     width: 100%;
 }
 
-.projet .description .contenue .part1{
-    margin-top: -580px;
+.projet .contenue .part1 .contentproject{
+    margin-top: -640px;
     font-size: 12px;
     width: 700px;
     margin-left: 820px;
     font-weight: 500;
+    background: rgba(253, 253, 253, 0.122);
+    position: absolute;
+    padding: 50px 25px 60px 30px;
+    backdrop-filter: blur(5px);
 }
 
 /*------Competances--------*/
+
 
 .container{
     display: flex;
@@ -156,6 +172,7 @@ header {
     align-items: center;
     background: url(/images/faisal-g0RtZc1IBtU-unsplash.jpg) fixed;
     background-size: cover;
+    margin-bottom: 80px;
 }
 
 .container .skill-title{
@@ -255,12 +272,12 @@ section .services {
     padding: 10px;
     border-radius: 5px;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     flex-direction: column;
     box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
     background: rgb(255, 255, 255);
-    margin: 20px 12px;
+    margin: 20px 16px;
 }
 
 .card i {
@@ -271,6 +288,7 @@ section .services {
 
 .card h2 {
     font-size: 16px;
+    margin-top: -50px;
 }
 
 .card p {
@@ -322,6 +340,14 @@ section .services {
         url(/images/linkedin-sales-solutions-UK1N66KUkMk-unsplash.png)
 }
 
+.card:nth-child(6):hover {
+    background: linear-gradient(90deg,
+            rgba(2, 2, 36, 0.7) 0%,
+            rgba(9, 9, 22, 0.7) 35%,
+            rgba(255, 247, 0, 0.541) 100%),
+        url(/images/sergey-zolkin-_UeY8aTI6d0-unsplash.png)
+}
+
 .card:hover p {
     color: #fff;
 }
@@ -338,7 +364,7 @@ section .services {
 
 .contact {
     display: flex;
-    margin-top: 152px;
+    margin-top: 100px;
 }
 
 .contact-text {
@@ -346,7 +372,7 @@ section .services {
     color: #ffffff;
     text-align: center;
     width: 700px;
-    height: 450px;
+    height: 500px;
 }
 
 form{
@@ -392,6 +418,7 @@ button{
 
 .content-2 iframe {
     width: 890px;
+    height: 500px;
 }
 
 .footer .text {
@@ -400,5 +427,6 @@ button{
     padding: 20px;
     background-color: #8e8f8f;
     letter-spacing: 3px;
+    margin-top: 50px;
 }
 
